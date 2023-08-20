@@ -333,7 +333,7 @@ main {
 
 .avatar-box {
   background: var(--bg-gradient-onyx);
-  border-radius: 20px;
+  border-radius: 80px;
 }
 
 .info-content .name {
@@ -504,7 +504,13 @@ main {
   line-height: 1.6;
 }
 
-.about-text p { margin-bottom: 15px; }
+.about-text p { 
+  margin-bottom: 15px;  
+  font-size: 16px;
+  /* font-family: Kannada MN; */
+  line-height: 1.5;
+  margin-bottom: 20px;
+  text-align: justify;}
 
 
 
