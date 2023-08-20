@@ -24,7 +24,14 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
 </head>
-
+<style>
+#profilepic{
+  width: 150px; /* Adjust the width and height as needed */
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover; 
+}
+  </style>
 <body>
 
   <!--
@@ -41,9 +48,9 @@
 
       <div class="sidebar-info">
 
-        <figure class="avatar-box">
-          <img src="./assets/images/Fang-Ying.jpg" alt="Fang-Ying Tien" width="80">
-        </figure>
+        <!-- <figure class="avatar-box"> -->
+          <img src="./assets/images/Fang-Ying.jpg" id="profilepic"alt="Fang-Ying Tien" width="0">
+        <!-- </figure> -->
 
         <div class="info-content">
           <h1 class="name" title="Fang-Ying Tien">Fang-Ying Tien</h1>
